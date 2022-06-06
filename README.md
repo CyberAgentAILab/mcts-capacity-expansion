@@ -22,11 +22,11 @@ $ pip install -r requirements.txt
 ### For Docker User
 Build the container:
 ```bash
-$ docker build -t capacity_expansion .
+$ docker build -t mcts-capacity-expansion .
 ```
 After build finished, run the container:
 ```bash
-$ docker run -it capacity_expansion
+$ docker run -it mcts-capacity-expansion
 ```
 
 ## Run Experiments

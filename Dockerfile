@@ -30,6 +30,6 @@ RUN pip install --upgrade pip
 RUN pip install gurobipy numpy pandas
 
 # COPY
-RUN mkdir $HOME/capacity_expansion
-COPY ./ $HOME/capacity_expansion
-WORKDIR $HOME/capacity_expansion
+RUN mkdir $HOME/mcts-capacity-expansion
+COPY ./ $HOME/mcts-capacity-expansion
+WORKDIR $HOME/mcts-capacity-expansion
