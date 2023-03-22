@@ -50,3 +50,16 @@ To evaluate the algorithms via real-data experiments, execute the following comm
 ```bash
 $ python run_real_data_experiment.py --budget=30 --num_trials=10
 ``` 
+
+## Citation
+If you use our code in your work, please cite our paper:
+```
+@inproceedings{abe2022mctsce,
+  title     = {Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search},
+  author    = {Abe, Kenshi and Komiyama, Junpei and Iwasaki, Atsushi},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  pages     = {3--9},
+  year      = {2022}
+}
+```
